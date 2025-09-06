@@ -66,8 +66,10 @@ def afterlogin_view(request):
                 
     elif is_patient(request.user):
         return redirect('patient/patient-dashboard')
-    else:
+    elif request.user.is_superuser:
         return redirect('admin-dashboard')
+    else:
+        return redirect('donor/donorsignup')
 
 @login_required(login_url='adminlogin')
 def admin_dashboard_view(request):
