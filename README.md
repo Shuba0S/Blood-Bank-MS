@@ -5,6 +5,11 @@ This project is a **Blood Bank Management System** designed to facilitate blood 
 
 ---
 
+## 🔗 Live Demo
+Check out the deployed project here: [Blood Bank Management System](https://blood-bank-ms.vercel.app/)
+
+---
+
 ## 🎯 Goals
 - Enable **donors** to register, donate blood, and view their donation history.
 - Allow **patients** to make blood requests specifying blood group and required units.
